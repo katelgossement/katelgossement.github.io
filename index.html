@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            margin: 0;
+        }
+        section{
+            height: 100vh;
+            position: relative;
+        }
+        section:nth-child(even){
+            background-color: burlywood;
+        }
+        button{
+            position: absolute;
+            bottom: 2px;
+            left: 50%;
+            width: 200px;
+            margin-left: -100px;
+        }
+    </style>
 </head>
+
 <body>
-    bhaaaaaaaa
+    
+    <section>zone 1
+        <button>coucou</button>
+    </section>
+    <section>zone 2</section>
+    <section>zone 3</section>
 </body>
+
 </html>
